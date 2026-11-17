@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Freela Calculator - Cadastro</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topo">
+      <img
+        src="img/FL_LOGO-REDUCTION.png"
+        alt="img-freelancer"
+        class="logo-freela"
+      />
+      <h1>FREELA CALCULATOR</h1>
+      <p>Descubra quanto cobrar pelo seu trabalho.</p>
+    </header>
+    <nav class="menu-navegacao">
+      <a href="index.html">Início</a>
+      <a href="calculadora.html" class="ativo">Calculadora</a>
+      <a href="dicas.html">Dicas</a>
+      <a href="login.html">Login</a>
+    </nav>
+
+    <main
+      class="principal"
+      style="justify-content: center; align-items: center; min-height: 70vh"
+    >
+      <section class="caixa" style="max-width: 400px; width: 100%">
+        <header style="text-align: center; margin-bottom: 20px">
+          <h1 style="font-size: 24px">Criar Conta</h1>
+          <p style="color: #666; font-size: 14px">
+            Comece a gerenciar seus freelas
+          </p>
+        </header>
+        <form action="login.html">
+          <div class="campo">
+            <label>Nome Completo:</label>
+            <input type="text" placeholder="Seu nome" required />
+          </div>
+          <div class="campo">
+            <label>Email:</label>
+            <input type="email" placeholder="seu@email.com" required />
+          </div>
+          <div class="campo">
+            <label>Senha:</label>
+            <input type="password" placeholder="••••••••" required />
+          </div>
+          <a
+            href="login.html"
+            style="
+              background-color: #007bff;
+              border-radius: 5px;
+              padding: 5px 10px;
+              text-decoration: none;
+            "
+            class="botao"
+            >Cadastrar</a
+          >
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

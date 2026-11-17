@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Freela Calculator - Calculadora</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topo">
+      <img
+        src="img/FL_LOGO-REDUCTION.png"
+        alt="img-freelancer"
+        class="logo-freela"
+      />
+      <h1>FREELA CALCULATOR</h1>
+      <p>Descubra quanto cobrar pelo seu trabalho.</p>
+    </header>
+    <nav class="menu-navegacao">
+      <a href="index.html">Início</a>
+      <a href="calculadora.html" class="ativo">Calculadora</a>
+      <a href="dicas.html">Dicas</a>
+      <a href="login.html">Login</a>
+    </nav>
+
+    <main class="principal">
+      <section class="caixa">
+        <h2>Dados do Projeto</h2>
+
+        <div class="campo">
+          <label>Quanto quer ganhar por mês? (R$)</label>
+          <input type="number" id="salario" value="3500" />
+        </div>
+        <div class="campo">
+          <label>Quantas horas por dia?</label>
+          <input type="number" id="horasDia" value="6" />
+        </div>
+        <div class="campo">
+          <label>Quantos dias por semana?</label>
+          <input type="number" id="diasSemana" value="5" />
+        </div>
+        <div class="campo">
+          <label>Custos mensais (R$)</label>
+          <input type="number" id="custos" value="300" />
+        </div>
+        <button class="botao" id="btn-calcular">Calcular</button>
+      </section>
+
+      <section class="caixa">
+        <h2>Resultado</h2>
+        <div class="resultado">
+          <span>Valor da hora:</span>
+          <h3 class="verde" id="resultado-hora">R$ 38,50 /hora</h3>
+        </div>
+        <div class="resultado">
+          <span>Projeto sugerido (20h):</span>
+          <h3 class="azul" id="resultado-projeto">R$ 770,00</h3>
+        </div>
+        <div class="dica">
+          <h4>Dica</h4>
+          <p>Sempre cobre 50% de entrada e 50% na entrega.</p>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

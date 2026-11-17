@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+.menu-navegacao {
+  background-color: #025eaf;
+  padding: 15px;
+  text-align: center;
+}
+.logo-freela {
+  max-width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+.menu-navegacao a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 15px;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+.menu-navegacao a:hover,
+.menu-navegacao a.ativo {
+  color: #0a386a;
+}
+
+.topo {
+  background-color: #006ccb;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.topo span {
+  color: #007bff;
+}
+.topo h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+.principal {
+  width: 1000px;
+  max-width: 95%;
+  margin: 30px auto;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+.anuncio-lateral {
+  width: 160px;
+  flex-shrink: 0;
+}
+
+.anuncio-lateral img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.caixa {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1;
+}
+
+.caixa h2 {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.campo {
+  margin-bottom: 12px;
+}
+
+.campo label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.campo input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.botao {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+.botao:hover {
+  background-color: #0056b3;
+}
+
+.resultado {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.resultado span {
+  font-size: 12px;
+  color: #666;
+}
+
+.verde {
+  color: #28a745;
+  font-size: 22px;
+}
+
+.azul {
+  color: #007bff;
+  font-size: 22px;
+}
+
+.dica {
+  background-color: #e7f3ff;
+  padding: 10px;
+  border-radius: 4px;
+  border-left: 4px solid #007bff;
+  margin-top: 15px;
+}
+
+.dica p {
+  font-size: 13px;
+  margin-top: 4px;
+}
